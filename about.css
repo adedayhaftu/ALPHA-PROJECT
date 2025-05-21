@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    justify-content: center;
+    gap: 10%;
+    display: flex;
+    background-color: black;
+    border-radius: 25px;
+    padding: 15px;
+    width: 50%;
+    margin-left: 12cm;
+  
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+/* 
+.about-us {
+
+    display: flex;
+    gap: 30px;
+    margin-top: 10%;
+} */
+ .image img{
+width: 600px;
+border-radius: 70px;
+ }
+ #personal-info{
+    display: none;
+ }
+
+.alpha {
+    margin-left: 20%;
+
+    h1 {
+        color: rgb(124, 15, 15);
+
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
+        color: rgb(124, 15, 15);
+    }
+
+
+}
+
+.alpha-image img {
+    width: 50vw;
+    height: 100vh;
+    margin-left: 30%;
+}
+#unity-quote{
+     color: rgb(124, 15, 15);
+     margin-left: 20%;
+     margin-top: 5%;
+     font-size: 20px;
+}
+#steve{
+       color: rgb(124, 15, 15);
+     margin-left: 50%;
+      font-size: 16px;
+}
+button{
+    width: 13vw;
+    height: 7vh;
+    background-color:gray;
+    border-radius: 20px;
+    border: none;
+ margin-bottom: 70px;
+ font-size: 25px;
+ margin-left: 40%;
+ margin-top: 100px;
+}
+.adeday-info{
+    display: flex;
+    gap: 50px;
+}
+
+.adu-content{
+
+}
+.queen-info{
+    display: flex;
+    gap: 50px;
+    margin-left: 30%;
+}
+
+.queen-content{
+
+}
+.marion-info{
+    display: flex;
+    gap: 50px;
+}
+.marion-image img{
+height: 20vh;
+width: 42vw;
+}
+.marion-content{
+
+}
+.mildred-info{
+    display: flex;
+    gap: 50px;
+}
+.mildred-image img{
+height: 90vh;
+width: 42vw;
+}
+.mildred-content{
+
+}
+.hani-info{
+    display: flex;
+    gap: 50px;
+}
+.hani-image img{
+height: 90vh;
+width: 42vw;
+}
+.hani-content{
+
+}
+.sharley-info{
+    display: flex;
+    gap: 50px;
+}
+.sharley-image img{
+height: 90vh;
+width: 42vw;
+}
+.sharley-content{
+
+}

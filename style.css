@@ -1,0 +1,180 @@
+.navbar {
+  
+    display: flex;
+    gap: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: gray;
+    margin: 20px auto;
+    
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+}
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(images/group.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 90%;
+}
+
+.thinking-time {
+    display: flex;
+    gap: 5%;
+    position: relative;
+    overflow: hidden;
+
+    margin-left: 7%;
+    margin-top: -40px;
+     height: 100vh;
+}
+
+.solution img{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    filter: brightness(0.6);
+}
+.solution-content{
+position: absolute;
+top: 12%;
+left: 3%;
+font-size: 15px;
+color: #102c03;
+p{
+   
+    text-align: center;
+    color: white;
+}
+
+}
+
+.midset-growth img{
+ width: 25vw;
+    height: 50vh;
+    position: relative;
+}
+.mindset-content{
+position: absolute;
+top: 12%;
+left: 38%;
+font-size: 15px;
+p{
+   
+    text-align: center;
+}
+}
+
+
+.weekly-challenge {
+    display: flex;
+    gap: 5%;
+    position: relative;
+    overflow: hidden;
+
+    margin-left: 7%;
+    margin-top: -40px;
+     height: 100vh;
+}
+
+.week1-img img{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    filter: brightness(0.6);
+}
+.week1-content{
+position: absolute;
+padding: 3%;
+top: 23%;
+/* left: 3%; */
+font-size: 20px;
+color: white;
+p{
+   
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+}
+
+.week2-img img{
+ width: 25vw;
+    height: 50vh;
+    position: relative;
+}
+
+
+ .week3-img img{
+ width: 25vw;
+    height: 50vh;
+    position: relative;
+}
+.week3-content{
+position: absolute;
+top: 38%;
+left: 54%;
+font-size: 25px;
+color: white;
+p{
+  
+    text-align: center;
+    color: white;
+    font-size: 32px;
+  margin-left: -60px;
+}
+} 
+ .week4-img img{
+ width: 25vw;
+    height: 50vh;
+    position: relative;
+}
+.week4-content{
+position: absolute;
+top: 38%;
+left: 79%;
+font-size: 25px;
+color: white;
+p{
+  
+    text-align: center;
+    color: white;
+    font-size: 32px;
+  margin-left: -60px;
+}
+} 
+
+ @keyframes scroll {
+    0% {
+        transform: translatex(0);
+    }
+    100% {
+        transform: translatex(-50%);
+    }
+}
+
+.scroller {
+    display: flex;
+    flex-direction: row;
+    animation: scroll 30s linear infinite;
+    will-change: transform;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+.week1{
+    flex-shrink: 0;
+    padding: clamp(0.8rem, 2vw, 1rem);
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+}
+.scroller:hover {
+    animation-play-state: paused;
+} 
+
