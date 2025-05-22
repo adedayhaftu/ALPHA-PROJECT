@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animal Powers Board Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <div class="card-row blue-row">
+    <div class="animal-card blue">
+      <div class="img-holder">
+        <img src="images/crab.png" alt="Crab">
+      </div>
+      <div class="card-content">
+        <h3>CRAB</h3>
+        <div class="powers-title">Powers</div>
+        <ul>
+          <li>Hard shell</li>
+          <li>Strong claws</li>
+          <li>Move through tight spaces</li>
+          <li>Regeneration</li>
+          <li>Can breath in water and land</li>
+        </ul>
+      </div>
+    </div>
+    <div class="animal-card blue">
+      <div class="img-holder">
+        <img src="images/octopus.png" alt="Octopus">
+      </div>
+      <div class="card-content">
+        <h3>OCTOPUS</h3>
+        <div class="powers-title">Powers</div>
+        <ul>
+          <li>Intelligent</li>
+          <li>Camouflage</li>
+          <li>Regeneration</li>
+          <li>Ink</li>
+          <li>Siphon</li>
+          <li>Flexible body shape</li>
+        </ul>
+      </div>
+    </div>
+    <div class="animal-card blue">
+      <div class="img-holder">
+        <img src="images/hammerhead.jpeg" alt="Hammerhead">
+      </div>
+      <div class="card-content">
+        <h3>HAMMERHEAD</h3>
+        <div class="powers-title">Powers</div>
+        <ul>
+          <li>Swimming</li>
+          <li>Aquatic Respiration</li>
+          <li>Electro-reception</li>
+          <li>Stabilizing fins</li>
+          <li>Wide field of vision</li>
+        </ul>
+      </div>
+    </div>
+    <div class="animal-card blue">
+      <div class="img-holder">
+        <img src="images/whale.png" alt="Whale">
+      </div>
+      <div class="card-content">
+        <h3>WHALE</h3>
+        <div class="powers-title">Powers</div>
+        <ul>
+          <li>Swimming</li>
+          <li>Baleen</li>
+          <li>Hump</li>
+          <li>Aquatic Respiration</li>
+          <li>Special complex songs and calls</li>
+          <li>Powerful flippers for defense</li>
+          <li>Full body breaching</li>
+          <li>Bubble net making</li>
+          <li>20mph top speed</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="card-row yellow-row">
+    <div class="animal-card yellow">
+      <div class="img-holder">
+        <img src="images/scorpion.jpeg" alt="Scorpion">
+      </div>
+      <div class="card-content">
+        <h3>SCORPION</h3>
+        <div class="powers-title">Powers</div>
+        <ul>
+          <li>Poisonous</li>
+          <li>Long lifespan</li>
+          <li>More active at night</li>
+        </ul>
+      </div>
+    </div>
+    <div class="animal-card yellow">
+      <div class="img-holder">
+        <img src="images/snake.webp" alt="Snake">
+      </div>
+      <div class="card-content">
+        <h3>SNAKE</h3>
+        <div class="powers-title">Powers</div>
+        <ul>
+          <li>Poisonous</li>
+          <li>Can change color</li>
+          <li>Can navigate through tight spaces</li>
+          <li>More active at night</li>
+          <li>Can conserve water</li>
+        </ul>
+      </div>
+    </div>
+    <div class="animal-card yellow">
+      <div class="img-holder">
+        <img src="images/camel.jpeg" alt="Camel">
+      </div>
+      <div class="card-content">
+        <h3>CAMEL</h3>
+        <div class="powers-title">Powers</div>
+        <ul>
+          <li>Can conserve water</li>
+          <li>Eat plants that most animals don't</li>
+          <li>Can sleep while standing</li>
+          <li>Spit as a defense mechanism</li>
+        </ul>
+      </div>
+    </div>
+    <div class="animal-card yellow">
+      <div class="img-holder">
+        <img src="images/coyote.jpeg" alt="Coyote">
+      </div>
+      <div class="card-content">
+        <h3>COYOTE</h3>
+        <div class="powers-title">Powers</div>
+        <ul>
+          <li>Excellent smell</li>
+          <li>Sharp vision</li>
+          <li>Keen sense of hearing</li>
+          <li>Coat of fur for cold climates</li>
+          <li>Have speed and can jump</li>
+          <li>Long lifespan</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="card-row green-row">
+    <div class="info-card green">
+      <img src="images/nature.jpeg" alt="Habitat">
+      <p>Skip forward two habitats.</p>
+    </div>
+    <div class="info-card green">
+      <img src="images/nature.jpeg" alt="Habitat">
+      <p>If in natural habitat move 3 tiles forward else move back 2 tiles.</p>
+    </div>
+    <div class="info-card green">
+      <img src="images/nature.jpeg" alt="Habitat">
+      <p>If in the desert move to the next tile with water.</p>
+    </div>
+    <div class="info-card green">
+      <img src="images/nature.jpeg" alt="Habitat">
+      <p>Move forward two tiles.</p>
+    </div>
+  </div>
+  <body>
+  <div class="board-container">
+    <div class="oval-track">
+      <div class="tile" style="--i:0"><img src="images/sunlight.jpeg" alt=""></div>
+      <div class="tile" style="--i:1"><img src="images/rainforest.jpeg" alt=""></div>
+      <div class="tile" style="--i:3"><img src="images/bluaaqua.jpeg" alt=""></div>
+      <div class="tile" style="--i:4"><img src="images/desert.jpg" alt=""></div>
+      <div class="tile" style="--i:2"><div class="start-circle" style="background:#f6f62d">START</div></div>
+      <div class="tile" style="--i:5"><img src="images/rainforest.jpeg" alt=""></div>
+      <div class="tile" style="--i:6"><img src="images/bluaaqua.jpeg" alt=""></div>
+      <div class="tile" style="--i:7"><img src="images/desert.jpg" alt=""></div>
+      <div class="tile" style="--i:8"><img src="images/sunlight.jpeg" alt=""></div>
+      <div class="tile" style="--i:9"><div class="start-circle" style="background:#e74c3c">START</div></div>
+      <div class="tile" style="--i:10"><img src="images/desert.jpg" alt=""></div>
+      <div class="tile" style="--i:11"><img src="images/sunlight.jpeg" alt=""></div>
+      <div class="tile" style="--i:12"><img src="images/bluaaqua.jpeg" alt=""></div>
+      <div class="tile" style="--i:13"><img src="images/rainforest.jpeg" alt=""></div>
+      <div class="tile" style="--i:14"><div class="start-circle" style="background:#e6b0aa">START</div></div>
+      <div class="tile" style="--i:15"><img src="images/desert.jpg" alt=""></div>
+      <div class="tile" style="--i:16"><img src="images/rainforest.jpeg" alt=""></div>
+      <div class="tile" style="--i:17"><img src="images/sunlight.jpeg" alt=""></div>
+      <div class="tile" style="--i:18"><img src="images/bluaaqua.jpeg" alt=""></div>
+      <div class="tile" style="--i:19"><div class="start-circle" style="background:#8e44ad">START</div></div>
+    </div>
+  </div>
+<div class="rules-container">
+    <div class="rule-card">
+      <div class="image-container">
+        <img src="images/desert.jpg" alt="Habitat Image">
+        <img src="images/sunlight.jpeg" alt="Habitat Image">
+        <img src="images/rainforest.jpeg" alt="Habitat Image">
+        <img src="images/bluaaqua.jpeg" alt="Habitat Image">
+      </div>
+      <p>If any creature not in its habitat move 5 steps behind</p>
+    </div>
+
+    <div class="rule-card">
+      <div class="image-container">
+        <img src="images/sunlight.jpeg" alt="Habitat Image">
+        <img src="images/rainforest.jpeg" alt="Habitat Image">
+           <img src="images/desert.jpg" alt="Habitat Image">
+        <img src="images/bluaaqua.jpeg" alt="Habitat Image">
+      </div>
+      <p>Shift habitat with the animal behind you</p>
+    </div>
+
+    <div class="rule-card">
+      <div class="image-container">
+        <img src="images/sunlight.jpeg" alt="Savannah Image">
+      </div>
+      <p>If in Savannah move three steps behind</p>
+    </div>
+
+    <div class="rule-card">
+      <div class="image-container">
+        <img src="images/bluaaqua.jpeg" alt="Aqua Image">
+      </div>
+      <p>If in aqua move three steps behind</p>
+    </div>
+
+    <div class="rule-card">
+      <div class="image-container">
+        <img src="images/desert.jpg" alt="Desert Image">
+      </div>
+      <p>If in desert move three steps behind</p>
+    </div>
+
+    <div class="rule-card">
+      <div class="image-container">
+        <img src="images/rainforest.jpeg" alt="Rainforest Image">
+      </div>
+      <p>If in rainforest move three steps behind</p>
+    </div>
+  </div>
+
+  <div class="cards-container">
+    <div class="animal-card">
+      <div class="animal-title">MONKEY</div>
+      <div class="animal-image">
+        <img src="images/monkey.jpeg" alt="Monkey">
+      </div>
+      <div class="powers-title">Powers</div>
+      <ul class="powers-list">
+        <li>Navigating easily through trees</li>
+        <li>Large and social groups</li>
+        <li>Intelligent and problem solver</li>
+      </ul>
+    </div>
+    <div class="animal-card">
+      <div class="animal-title">FROG</div>
+      <div class="animal-image">
+        <img src="images/frog.jpeg" alt="Frog">
+      </div>
+      <div class="powers-title">Powers</div>
+      <ul class="powers-list">
+        <li>Strong back legs for leaping</li>
+        <li>Good night vision</li>
+        <li>Poisonous</li>
+        <li>Changing color</li>
+      </ul>
+    </div>
+    <div class="animal-card">
+      <div class="animal-title">BEAVER</div>
+      <div class="animal-image">
+        <img src="images/beaver.jpeg" alt="Beaver">
+      </div>
+      <div class="powers-title">Powers</div>
+      <ul class="powers-list">
+        <li>Strong teeth</li>
+        <li>Waterproof coat</li>
+        <li>Can live in both land and water</li>
+        <li>Good in constructing dams, lodges and lodges</li>
+      </ul>
+    </div>
+    <div class="animal-card">
+      <div class="animal-title">CHAMELEON</div>
+      <div class="animal-image">
+        <img src="images/chameleon.png" alt="Chameleon">
+      </div>
+      <div class="powers-title">Powers</div>
+      <ul class="powers-list">
+        <li>Color-changing ability</li>
+        <li>Can see two different directions at once</li>
+        <li>Long sticky tongue</li>
+        <li>Has two toes facing forward and two back</li>
+      </ul>
+    </div>
+  </div>
+  <div class="section animal-section">
+    <div class="animal-card orange">
+      <div class="card-title">ELEPHANT</div>
+      <div class="card-image">
+        <img src="images/elephant.jpeg" alt="Elephant">
+      </div>
+      <div class="powers-title">Powers</div>
+      <ul class="powers-list">
+        <li>Incredible strength</li>
+        <li>Powerful trunk</li>
+        <li>Tusks</li>
+        <li>Temperature-regulating ears</li>
+      </ul>
+    </div>
+    <div class="animal-card orange">
+      <div class="card-title">CHEETAH</div>
+      <div class="card-image">
+        <img src="images/cheetah.jpeg" alt="Cheetah">
+      </div>
+      <div class="powers-title">Powers</div>
+      <ul class="powers-list">
+        <li>70 mph running</li>
+        <li>Enhanced vision</li>
+        <li>Camouflage</li>
+        <li>Long tail for sharp turns</li>
+      </ul>
+    </div>
+    <div class="animal-card orange">
+      <div class="card-title">GIRAFFE</div>
+      <div class="card-image">
+        <img src="images/giraffe.png" alt="Giraffe">
+      </div>
+      <div class="powers-title">Powers</div>
+      <ul class="powers-list">
+        <li>Long neck</li>
+        <li>Neck fighting</li>
+        <li>Ossicones</li>
+        <li>Speed</li>
+        <li>Hoof kick</li>
+      </ul>
+    </div>
+    <div class="animal-card orange">
+      <div class="card-title">KANGAROO</div>
+      <div class="card-image">
+        <img src="images/kangaroo.jpeg" alt="Kangaroo">
+      </div>
+      <div class="powers-title">Powers</div>
+      <ul class="powers-list">
+        <li>Super-jumping</li>
+        <li>Kick-boxing</li>
+        <li>Strong tail to lean back on</li>
+        <li>Pouch (female)</li>
+        <li>Speed</li>
+        <li>Sharp hearing</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section green-section">
+    <div class="green-card">
+      <img src="images/nature.jpeg" alt="Habitat">
+      <div class="green-text">Move forward three tiles</div>
+    </div>
+    <div class="green-card">
+      <img src="images/nature.jpeg" alt="Habitat">
+      <div class="green-text">If in natural habitat move forward 2 tiles, else move back 1 tile</div>
+    </div>
+    <div class="green-card">
+      <img src="images/nature.jpeg" alt="Habitat">
+      <div class="green-text">If any forest animal move forward 1 tile</div>
+    </div>
+    <div class="green-card">
+      <img src="images/nature.jpeg" alt="Habitat">
+      <div class="green-text">Desert creature move forward 1 tile</div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section green-section">
+    <div class="green-card">
+      <img src="images/nature.jpeg" alt="Habitat">
+      <div class="green-text">If in higher habitat move forward 2 tiles</div>
+    </div>
+    <div class="green-card">
+      <img src="images/nature.jpeg" alt="Habitat">
+      <div class="green-text">If creature is still at the starting point move forward 2 tiles</div>
+    </div>
+  </div>
+
+
+</body>
+</html>
+
