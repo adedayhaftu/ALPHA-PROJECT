@@ -2,23 +2,32 @@ body {
     font-family: sans-serif;
     overflow-x: hidden;
 }
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(images/neew.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+}
 
 .navbar {
     justify-content: center;
     gap: 10%;
     display: flex;
-    background-color: black;
     border-radius: 25px;
     padding: 15px;
     width: 50%;
     margin-left: 12cm;
-  
+
 }
 
 a {
     text-decoration: none;
-    color:white;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
 }
+
 /* 
 .about-us {
 
@@ -26,116 +35,205 @@ a {
     gap: 30px;
     margin-top: 10%;
 } */
- .image img{
-width: 600px;
-border-radius: 70px;
- }
- #personal-info{
+.image img {
+    width: 600px;
+    border-radius: 70px;
+}
+
+#personal-info {
     display: none;
- }
+}
 
 .alpha {
-    margin-left: 20%;
+    margin-top: 200px;
+    /* margin-left: 20%; */
 
     h1 {
         color: rgb(124, 15, 15);
+        font-size: 50px;
+        text-align: center;
 
     }
 
     p {
-        font-size: 18px;
-        line-height: 28px;
-        color: rgb(124, 15, 15);
+        font-size: 22px;
+        line-height: 40px;
+        color: black;
+        text-align: center;
+
     }
 
 
 }
 
 .alpha-image img {
-    width: 50vw;
-    height: 100vh;
-    margin-left: 30%;
+    width: 90vw;
+    height: 140vh;
+    margin-left: 5%;
+    border-radius: 20px;
+    filter: brightness(0.7);
+    /* position: relative; */
 }
-#unity-quote{
-     color: rgb(124, 15, 15);
-     margin-left: 20%;
-     margin-top: 5%;
-     font-size: 20px;
+
+#unity-quote {
+    color: rgb(124, 15, 15);
+    /* margin-left: 20%; */
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
 }
-#steve{
-       color: rgb(124, 15, 15);
-     margin-left: 50%;
-      font-size: 16px;
+
+#steve {
+    color: rgb(124, 15, 15);
+    margin-left: 50%;
+    font-size: 16px;
 }
-button{
+
+button {
     width: 13vw;
     height: 7vh;
-    background-color:gray;
+    background-color: gray;
     border-radius: 20px;
     border: none;
- margin-bottom: 70px;
- font-size: 25px;
- margin-left: 40%;
- margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top: 100px;
 }
-.adeday-info{
+
+.adeday-info {
     display: flex;
     gap: 50px;
+    margin-left: 160px;
 }
 
-.adu-content{
+.adu-content {
+    line-height: 30px;
+    font-size: 19px;
+    margin-top: 150px;
+
+    width: 45%;
+}
+
+#first-author {
+    color: rgb(148, 13, 13);
+    margin-left: 430px;
+}
+
+.queen-info {
+    display: flex;
+    gap: 140px;
+    margin-left: 23%;
+    margin-top: 100px;
 
 }
-.queen-info{
+
+.queen-content {
+    margin-top: 130px;
+    line-height: 30px;
+    font-size: 19px;
+    color: black;
+}
+
+#second-author {
+    color: rgb(148, 13, 13);
+    margin-left: 430px;
+}
+
+.marion-info {
     display: flex;
     gap: 50px;
-    margin-left: 30%;
+    margin-left: 160px;
+    margin-top: 60px;
 }
 
-.queen-content{
-
+.marion-image img {
+    height: 20vh;
+    width: 42vw;
 }
-.marion-info{
+
+.marion-content {
+    line-height: 30px;
+    font-size: 19px;
+    color: black;
+    margin-top: 200px;
+}
+
+#third-author {
+    color: rgb(148, 13, 13);
+    margin-left: 430px;
+}
+
+.mildred-info {
     display: flex;
     gap: 50px;
+    margin-left: 40%;
 }
-.marion-image img{
-height: 20vh;
-width: 42vw;
-}
-.marion-content{
 
+.mildred-image img {
+    height: 90vh;
+    width: 42vw;
 }
-.mildred-info{
+
+.mildred-content {
+     line-height: 30px;
+    font-size: 19px;
+    margin-top: 150px;
+
+    width: 45%;
+}
+#fourth-author {
+    color: rgb(148, 13, 13);
+    margin-left: 160px;
+}
+
+
+.hani-info {
     display: flex;
     gap: 50px;
+    margin-left: 160px;
+    margin-top: 150px;
 }
-.mildred-image img{
-height: 90vh;
-width: 42vw;
-}
-.mildred-content{
 
+.hani-image img {
+    height: 90vh;
+    width: 42vw;
 }
-.hani-info{
+
+.hani-content {
+    line-height: 30px;
+    font-size: 19px;
+    margin-top: 140px;
+
+    width: 40%;
+}
+
+#fifth-author {
+    color: rgb(148, 13, 13);
+    margin-left: 430px;
+}
+
+.sharley-info {
     display: flex;
-    gap: 50px;
+    gap: 70px;
+    margin-left: 20%;
+    margin-top: 130px;
 }
-.hani-image img{
-height: 90vh;
-width: 42vw;
-}
-.hani-content{
 
+.sharley-image img {
+    height: 90vh;
+    width: 42vw;
 }
-.sharley-info{
-    display: flex;
-    gap: 50px;
-}
-.sharley-image img{
-height: 90vh;
-width: 42vw;
-}
-.sharley-content{
 
+.sharley-content {
+    line-height: 30px;
+    font-size: 19px;
+    margin-top: 150px;
+
+    width: 45%;
+}
+
+#six-author {
+    color: rgb(148, 13, 13);
+    margin-left: 430px;
 }
