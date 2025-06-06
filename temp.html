@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Animal Powers Board Game</title>
-  <link rel="stylesheet" href="game.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Habitat Hoppers</title>
+  <link rel="stylesheet" href="temp.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 </head>
 <body>
-  <div class="card-row blue-row">
+  <div class="hoppers">
+
+      <div class="hoppers-logo">
+        <img src="https://info.bingomore.com/wordpress/hoppers/assets/img/logo.svg" />
+      </div>
+
+      <div class="home-page">
+        <div class="home-content">
+          <h1>Welcome <br /> to <br /> Habitat Hoppers Site</h1>
+          <button class="explore-btn">Explore</button>
+        </div>
+        <div class="home-images">
+          <img src="https://i.pinimg.com/736x/fd/d9/e7/fdd9e747bfbc711bc4d481981bcd0d11.jpg" alt="Habitat" />
+          <img src="https://i.pinimg.com/736x/fd/d9/e7/fdd9e747bfbc711bc4d481981bcd0d11.jpg" alt="Habitat" />
+          <img src="https://i.pinimg.com/736x/fd/d9/e7/fdd9e747bfbc711bc4d481981bcd0d11.jpg" alt="Habitat" />
+        </div>
+       </div>
+
+      <div class="game">
+        <div class="game-container">
+          <img src="https://i.redd.it/eqdtwqv59pr51.jpg" class="game-image" alt="Game Home 02" />
+          <p class="game-caption">Home 02</p>
+        </div>
+      </div>
+
+     
+<div class="card-row blue-row">
     <div class="animal-card blue">
       <div class="img-holder">
         <img src="images/crab.png" alt="Crab">
       </div>
       <div class="card-content">
         <h3>CRAB</h3>
-        <div class="powers-title">Powers</div>
+        <div class="powers-title">Powers: Side Stepper</div>
         <ul>
           <li>Hard shell</li>
           <li>Strong claws</li>
           <li>Move through tight spaces</li>
           <li>Regeneration</li>
           <li>Can breath in water and land</li>
+          <li>Ignore movement penalities from 1 bad card</li>
         </ul>
       </div>
     </div>
@@ -29,7 +58,7 @@
       </div>
       <div class="card-content">
         <h3>OCTOPUS</h3>
-        <div class="powers-title">Powers</div>
+        <div class="powers-title">Powers: Escape Artist</div>
         <ul>
           <li>Intelligent</li>
           <li>Camouflage</li>
@@ -37,6 +66,7 @@
           <li>Ink</li>
           <li>Siphon</li>
           <li>Flexible body shape</li>
+          <li>Swap positions with forward animal</li>
         </ul>
       </div>
     </div>
@@ -46,13 +76,14 @@
       </div>
       <div class="card-content">
         <h3>HAMMERHEAD</h3>
-        <div class="powers-title">Powers</div>
+        <div class="powers-title">Powers: Wide Vision</div>
         <ul>
           <li>Swimming</li>
           <li>Aquatic Respiration</li>
           <li>Electro-reception</li>
           <li>Stabilizing fins</li>
           <li>Wide field of vision</li>
+          <li>Pick a good card</li>
         </ul>
       </div>
     </div>
@@ -62,7 +93,7 @@
       </div>
       <div class="card-content">
         <h3>WHALE</h3>
-        <div class="powers-title">Powers</div>
+        <div class="powers-title">Powers: Swimmer</div>
         <ul>
           <li>Swimming</li>
           <li>Baleen</li>
@@ -73,11 +104,11 @@
           <li>Full body breaching</li>
           <li>Bubble net making</li>
           <li>20mph top speed</li>
+          <li>If in ocean draw a good card</li>
         </ul>
       </div>
     </div>
   </div>
-
 
 
   <div class="card-row yellow-row">
@@ -87,11 +118,12 @@
       </div>
       <div class="card-content">
         <h3>SCORPION</h3>
-        <div class="powers-title">Powers</div>
+        <div class="powers-title">Powers: Poison Berry</div>
         <ul>
           <li>Poisonous</li>
           <li>Long lifespan</li>
           <li>More active at night</li>
+          <li>If in desert move one step ahead</li>
         </ul>
       </div>
     </div>
@@ -101,13 +133,14 @@
       </div>
       <div class="card-content">
         <h3>SNAKE</h3>
-        <div class="powers-title">Powers</div>
+        <div class="powers-title">Powers: Slither</div>
         <ul>
           <li>Poisonous</li>
           <li>Can change color</li>
           <li>Can navigate through tight spaces</li>
           <li>More active at night</li>
           <li>Can conserve water</li>
+          <li>Move diagonally to skip 1 space once per game </li>
         </ul>
       </div>
     </div>
@@ -117,12 +150,13 @@
       </div>
       <div class="card-content">
         <h3>CAMEL</h3>
-        <div class="powers-title">Powers</div>
+        <div class="powers-title">Powers: Desert Survivor</div>
         <ul>
           <li>Can conserve water</li>
           <li>Eat plants that most animals don't</li>
           <li>Can sleep while standing</li>
           <li>Spit as a defense mechanism</li>
+          <li>Ignore all bad cards on desert spaces</li>
         </ul>
       </div>
     </div>
@@ -132,7 +166,7 @@
       </div>
       <div class="card-content">
         <h3>COYOTE</h3>
-        <div class="powers-title">Powers</div>
+        <div class="powers-title">Powers: Adaptive Hunter</div>
         <ul>
           <li>Excellent smell</li>
           <li>Sharp vision</li>
@@ -140,121 +174,24 @@
           <li>Coat of fur for cold climates</li>
           <li>Have speed and can jump</li>
           <li>Long lifespan</li>
+          <li>Avoid a bad card effect</li>
         </ul>
       </div>
     </div>
   </div>
 
-  <hr class="divider">
 
-  <div class="card-row green-row">
-    <div class="info-card green">
-      <img src="images/nature.jpeg" alt="Habitat">
-      <p>Skip forward two habitats.</p>
-    </div>
-    <div class="info-card green">
-      <img src="images/nature.jpeg" alt="Habitat">
-      <p>If in natural habitat move 3 tiles forward else move back 2 tiles.</p>
-    </div>
-    <div class="info-card green">
-      <img src="images/nature.jpeg" alt="Habitat">
-      <p>If in the desert move to the next tile with water.</p>
-    </div>
-    <div class="info-card green">
-      <img src="images/nature.jpeg" alt="Habitat">
-      <p>Move forward two tiles.</p>
-    </div>
-  </div>
-    <hr class="divider">
 
-  <div class="board-container">
-    <div class="oval-track">
-      <div class="tile" style="--i:0"><img src="images/sunlight.jpeg" ></div>
-      <div class="tile" style="--i:1"><img src="images/rainforest.jpeg" ></div>
-      <div class="tile" style="--i:3"><img src="images/bluaaqua.jpeg" ></div>
-      <div class="tile" style="--i:4"><img src="images/desert.jpg" ></div>
-      <div class="tile" style="--i:2">
-        <div class="start-circle" style="background:#f6f62d">START</div>
-      </div>
-      <div class="tile" style="--i:5"><img src="images/rainforest.jpeg" ></div>
-      <div class="tile" style="--i:6"><img src="images/bluaaqua.jpeg" ></div>
-      <div class="tile" style="--i:7"><img src="images/desert.jpg" ></div>
-      <div class="tile" style="--i:8"><img src="images/sunlight.jpeg" ></div>
-      <div class="tile" style="--i:9">
-        <div class="start-circle" style="background:#e74c3c">START</div>
-      </div>
-      <div class="tile" style="--i:10"><img src="images/desert.jpg" ></div>
-      <div class="tile" style="--i:11"><img src="images/sunlight.jpeg" ></div>
-      <div class="tile" style="--i:12"><img src="images/bluaaqua.jpeg" ></div>
-      <div class="tile" style="--i:13"><img src="images/rainforest.jpeg" ></div>
-      <div class="tile" style="--i:14">
-        <div class="start-circle" style="background:#e6b0aa">START</div>
-      </div>
-      <div class="tile" style="--i:15"><img src="images/desert.jpg" ></div>
-      <div class="tile" style="--i:16"><img src="images/rainforest.jpeg" ></div>
-      <div class="tile" style="--i:17"><img src="images/sunlight.jpeg" ></div>
-      <div class="tile" style="--i:18"><img src="images/bluaaqua.jpeg" ></div>
-      <div class="tile" style="--i:19">
-        <div class="start-circle" style="background:#8e44ad">START</div>
-      </div>
-    </div>
-  </div>
 
-    <hr class="divider">
-
-<div class="rules-container">
-    <div class="rule-card">
-      <div class="image-container">
-        <img src="images/desert.jpg" alt="Habitat Image">
-        <img src="images/sunlight.jpeg" alt="Habitat Image">
-        <img src="images/rainforest.jpeg" alt="Habitat Image">
-        <img src="images/bluaaqua.jpeg" alt="Habitat Image">
-      </div>
-      <p>If any creature not in its habitat move 5 steps behind</p>
+  <div class="board">
+    <h1>Habitat Hoppers</h3>
+   <img src ="images/board.jpg">
     </div>
 
-    <div class="rule-card">
-      <div class="image-container">
-        <img src="images/sunlight.jpeg" alt="Habitat Image">
-        <img src="images/rainforest.jpeg" alt="Habitat Image">
-           <img src="images/desert.jpg" alt="Habitat Image">
-        <img src="images/bluaaqua.jpeg" alt="Habitat Image">
-      </div>
-      <p>Shift habitat with the animal behind you</p>
-    </div>
 
-    <div class="rule-card">
-      <div class="image-container">
-        <img src="images/sunlight.jpeg" alt="Savannah Image">
-      </div>
-      <p>If in Savannah move three steps behind</p>
-    </div>
 
-    <div class="rule-card">
-      <div class="image-container">
-        <img src="images/bluaaqua.jpeg" alt="Aqua Image">
-      </div>
-      <p>If in aqua move three steps behind</p>
-    </div>
 
-    <div class="rule-card">
-      <div class="image-container">
-        <img src="images/desert.jpg" alt="Desert Image">
-      </div>
-      <p>If in desert move three steps behind</p>
-    </div>
-
-    <div class="rule-card">
-      <div class="image-container">
-        <img src="images/rainforest.jpeg" alt="Rainforest Image">
-      </div>
-      <p>If in rainforest move three steps behind</p>
-    </div>
-  </div>
-
-  <hr class="divider">
-
-  <div class="cards-container">
+<div class="cards-container">
     <div class="animal-card">
       <div class="animal-title">MONKEY</div>
       <div class="animal-image">
@@ -309,7 +246,6 @@
   </div>
 
 
-  
   <div class="section animal-section">
     <div class="animal-card orange">
       <div class="card-title">ELEPHANT</div>
@@ -368,9 +304,8 @@
     </div>
   </div>
 
-    <hr class="divider">
 
-  <div class="section green-section">
+    <div class="section green-section">
     <div class="green-card">
       <img src="images/nature.jpeg" alt="Habitat">
       <div class="green-text">Move forward three tiles</div>
@@ -401,11 +336,7 @@
     </div>
   </div>
 
-
-
-
-  
-
+  </div>
 </body>
 </html>
 
